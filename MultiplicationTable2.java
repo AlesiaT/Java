@@ -1,4 +1,4 @@
-public class MyClass {
+public class MultiplicationTable {
     public static void main(String args[]) {
         System.out.print ("  |");
         for (int num1 = 1; num1 <= 6; num1++)
