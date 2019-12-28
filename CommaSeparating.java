@@ -4,7 +4,7 @@ public class CommaSeparating
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter a number >= 1000 and <= 1000000:");
+        System.out.println("Please enter a number >= 1000:");
         String num = new String(sc.nextLine());
         String newNum = new String(num.substring(num.length() - 3, num.length()));
         sc.close();
